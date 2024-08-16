@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-font2 {
+    font-family: 'Miama', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared Styles */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.orange{
+    color: rgba(230, 83, 60, 1);
+}
+
+.bright-white{
+    color: rgba(255, 255, 255, 1);
+}
+
+.light-white{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.display-flex{
+    display: flex;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 8px 20px;
+    font-size: 1.215rem;
+    font-weight: 600;
+    border-radius: 46px;
+    border: 0;
+}
+.btn-primarylarge{
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 40px;
+    font-size: 1.215rem;
+    font-weight: 600;
+    border-radius: 46px;
+    border: 0;
+}
+
+.btn-secondary{
+    background-color:black;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 40px;
+    font-size: 1.215rem;
+    font-weight: 600;
+    border-radius: 46px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.bg-header{
+    background: linear-gradient(180deg, black 0%, rgb(40, 40, 40) 50%, black 100%);
+}
+
+.margin-right{
+    margin-right: 8px;
+}
+
+/* Navbar Related Styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.nav-links{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 11px 4px; 
+    gap: 47px;
+}
+.nav-item{
+    list-style: none;
+}
+
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+} 
+
+/* Menu Icon */
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 4px;
+}
+
+/*  */
+
+/* Banner Related Styles */
+
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 160px; 
+    display: flex;
+    justify-content: space-between; 
+    gap: 50px; 
+    overflow: hidden;
+}
+
+.banner-content{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 900;
+    font-size: 4.875rem;
+    line-height: 5.85rem;
+    margin-bottom: 28px;
+    
+}
+
+.span{
+    font-weight: 400;
+    font-size: 8.875rem;
+    line-height: 5.85rem;
+}
+
+.banner-description{
+    padding-bottom: 30px;
+    margin-bottom: 28px;
+}
+
+.banner-image{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+.box1title{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+}
+.box1desc{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.box1{
+    max-width: 193px;
+    position: relative;
+    z-index: 100;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 22px;
+    margin-top: -450px;
+    margin-left: 230px;
+    
+}
+
+.box2{
+    max-width: 160px;
+    position: relative;
+    z-index: 100;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(48, 48, 48, 0.54);
+    stroke: rgba(255, 255, 255, 0.1);
+    padding: 15px 22px;
+    margin-top: 220px;
+    margin-left: -110px;
+}
+.box2content {
+    justify-content: space-between;
+    align-items: center;
+}
+.box2title{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0px;
+}
+.box2desc{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+.b2x{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+}
+.b2y{
+    height: 56px;
+    width: 108px;
+}
+.btn-carrier{
+    gap: 14px;
+}
+
+.hide{
+    display: none;
+}
+/*  */
+
+/* Footer Styles */
+
+.footer{
+    background-color: rgba(35,35,35,255);
+}
+
+.firstfooter{
+    max-width: 1059px;
+    display: flex;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+}
+
+.lastfooter{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.first{
+    max-width: 27.6875rem;
+    margin-bottom: 1.25rem;
+}
+
+.firstTitle{
+    max-width: 27.6875rem;
+    color: #E6533C;
+    font-size: 4.375rem;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 5.25rem;
+}
+
+.firstdesc{
+    max-width: 27.6875rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.second{
+    max-width: 32.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mini{
+    max-width: 11.3125rem;
+    flex: 1;
+
+}
+
+.titleget{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.pointget{
+    font-weight: 400;
+    font-size: 1.4375rem;
+    line-height: 1.725rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.first, .second {
+    max-width: 50%; 
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+/* Small Devices */
+
+/* Small Devices */
+@media screen and (max-width: 576px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding-left: 15px; 
+        padding-right: 15px; 
+        max-height: 100%;
+    }
+
+    .btn-carrier {
+        display: flex;
+        flex-direction: row; 
+        gap: 10px; 
+        width: 100%; 
+        justify-content: center; 
+        margin-top: 20px;
+    }
+
+    .hidden2{
+        display: none;
+    }
+    .hidden1{
+        display: block;
+    }
+    .btn-primary, .btn-secondary {
+        flex: 1; 
+        padding: 12px 0;
+        box-sizing: border-box; 
+    }
+
+    .btn-secondary{
+        background-color: rgba(35,35,35,255);
+    }
+
+    .banner-content {
+        text-align: left; 
+        margin-bottom: 30px; 
+    }
+
+    .banner-title{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .banner-description{
+        font-size: 16px;
+    }
+    .box1, .box2 {
+        max-width: 100%; 
+        margin-top: 20px; 
+    }
+    .span {
+        font-size: 4.5rem;
+        
+        line-height: 43px;
+    }
+    .box1{
+        margin-top: -520px;
+        width: 135.91px;
+        padding-right: 10px;
+    }
+    .box2{
+        margin-top: 120px;
+        width: 155.91px;
+        padding-left: 110px;
+        margin-bottom: 125px;
+    }
+    .banner-image {
+        max-height: 100%;
+        margin-bottom: 100px;
+    }
+}
+
+
+
