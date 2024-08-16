@@ -400,11 +400,173 @@ main{
 
 /*  */
 
+/* Habit Section */
+
+.change-habit {
+    max-width: 1440px;
+    background-color: black;
+    margin: 0 auto; 
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 2rem;
+}
+
+.habit {
+    max-width: 66.25rem;
+    background-color: black;
+    gap: 3.625rem;
+    padding: 2rem; 
+    margin: 0 auto;
+}
+
+.habit-content{
+    max-width: 41.9375rem;
+    text-align: center;
+    padding-left: 12rem;
+}
+
+.card-holder{
+    max-width: 65.25rem;
+    gap: 2.5rem;
+    display: flex;
+    padding-left: 2rem;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.habit-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.6rem;
+    margin-bottom: 1rem;
+}
+.habit-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 0;
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 3.6rem;
+    color: rgba(255, 255, 255, 1);
+    padding: 0;
+    margin: 0;
+}
+
+.card-subtitle{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0;
+    margin: 0;
+}
+
+/*  */
+
+/* Team Section */
+
+.meet-team {
+    max-width: 90rem;
+    background-color: black;
+    margin: 0 auto; 
+    padding: 0;
+    padding-bottom: 2rem;
+}
+
+.team {
+    max-width: 66.25rem;
+    background-color: black;
+    gap: 3.625rem;
+    padding: 2rem; 
+    margin: 0 auto;
+}
+
+.team-content{
+    max-width: 41.9375rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.6rem;
+    margin-bottom: 1rem;
+}
+
+.team-desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 3.75rem;
+}
+
+.team-card-holder{
+    max-width: 65.25rem;
+    background-color: rgba(25,25,25,255);
+    gap: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    border-radius: 18px;
+    
+}
+
+.team-card{
+    width: 20.416875rem;
+    border-radius: 18px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.team-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
+.team-card-title{
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+    padding: 0;
+    margin: 0;
+    margin-top: -80px;
+    margin-left: 18px;
+}
 
-
+.team-card-desc{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0;
+    margin: 0;
+    margin-left: 18px;
+}
 
 
 /* Small Devices */
@@ -513,6 +675,27 @@ main{
     }
     .runbutton{
         width: 17.9375rem;
+    }
+    .change-habit{
+        flex-direction: column;
+    }
+    .card-holder{
+        flex-direction: column;
+    }
+    .habit-content{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .card-title{
+        font-size: 2rem;
+    }
+    .team-card-holder{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-card img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
